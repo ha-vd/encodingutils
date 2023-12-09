@@ -6,6 +6,7 @@ func pow2(i : felt) -> (res : felt):
     let (data_address) = get_label_location(data)
     return ([data_address + i])
 
+
     data:
     dw 1
     dw 2
