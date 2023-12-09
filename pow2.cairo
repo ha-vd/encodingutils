@@ -1,6 +1,9 @@
 # Taken from greenlucid's repo: https://github.com/greenlucid/chess-cairo
 
+
 from starkware.cairo.common.registers import get_label_location
+
+
 
 func pow2(i : felt) -> (res : felt):
     let (data_address) = get_label_location(data)
